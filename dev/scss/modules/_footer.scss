@@ -1,9 +1,24 @@
 .Footer {
+	background-color: $c-darkblue;
 }
 
 .Footer-inner {
+
+	background-color: $c-darkblue;
+
 }
 
 .Footer-inner .widget {
 	@include span-columns(4);
+}
+
+.widgettitle{
+	color: $c-white;
+	font-size: 16px;
+	margin-top: 2.5em;
+}
+
+.Footer-text{
+	color: $c-white;
+	// margin-top: 2.5em;
 }

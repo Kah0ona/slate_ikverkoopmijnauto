@@ -12,6 +12,8 @@
   padding-left: 1em;
   padding-right: 1em;
   padding-bottom: 0.2em;
+  display: inline-block;
+  float:left;
 
 }
 
@@ -75,4 +77,10 @@
 .Navigation-link--invertedBold {
   color: $c-white; 
   font-weight: bold;
+}
+
+.Navigation-wrap{
+  overflow: hidden;
+  height: 4em;
+  background-color: $c-gray;
 }

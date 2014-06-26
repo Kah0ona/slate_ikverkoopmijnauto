@@ -29,6 +29,11 @@
 // Submodules
 // -------------------------------------
 
+.Logo-img > a:nth-child(1) > img:nth-child(1){
+  width: 33%;
+  margin-top: -3em;
+}
+
 .Logo-textLink {
   vertical-align: top;
   padding-top: rem(16px);

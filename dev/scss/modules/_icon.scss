@@ -26,22 +26,43 @@
 
 .Icon--alone {}
 
-// -------------------------------------
-// States
-// -------------------------------------
+li.icon::before {
+	content: "";
+	display: inline-block;
+	height: 1em;
+	width: 1em;
 
-// .is-module-state
+	vertical-align: middle;
+	padding-bottom: 0.2em;
+	margin-right: 0.5em;
+	background-repeat: no-repeat;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;	
+	box-sizing: border-box;		
+}   
 
-// -------------------------------------
-// Context
-// -------------------------------------
+li.check::before { 
+	background-image: url("../img/checkblue.png");
+	height: 2em;
+	width: 2.3em;
 
-// .has-module
+}
 
-// -------------------------------------
-// Submodules
-// -------------------------------------
+.Home-icon{
+	float:left;
+	width: 4.3em;
+	margin-left: 2.2em;
 
-// ----- Submodule ----- //
+}
 
-// .Module-subModule
+.Facebook-icon{
+	float:left;
+	width: 4.3em;
+	margin-right: 0.5em;
+}
+
+.Twitter-icon{
+	float:left;
+	width: 4.3em;
+}

@@ -1,0 +1,56 @@
+.Usp{
+	position: relative;
+	height: 194px;
+	background-color: $c-gray;
+
+
+}
+
+.Usp-imagewrap{
+	@include span-columns(4);
+	position: relative;
+	height: 1em;
+
+	.Usp-img{
+		position: absolute;
+		top: -175px;
+		width: 350px;
+
+	}
+}
+
+.Usp-list{
+	@include span-columns(5);
+}
+
+.Usp-title{
+	color: $c-darkblue;
+	margin-top: 10px;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.Usp-text{
+	color: $c-darkblue;
+}
+
+// .Directverkoop-imagewrap{
+// 	@include span-columns(3);
+// 	position: relative;
+// 	height: 1em;
+
+// 	.Directverkoop-img{
+// 		position: absolute;
+// 		top: 300px;
+// 		width: 350px;
+
+// 	}
+// }
+
+.Directverkoop-img{
+		position: absolute;
+		top: -50px;
+		width: 218px;
+
+	}

@@ -54,7 +54,13 @@
 
 @import "modules/footer";
 
+@import "modules/usp";
+
+@import "modules/explain";
+
 @import "modules/icon";
+
+@import "modules/slider";
 
 @import "modules/logo";
 
@@ -75,40 +81,18 @@
 	height: 250px;
 }
 
-.Usp{
-	position: relative;
-	height: 175px;
-
-
+.Customers{
+	background-color: $c-gray;
 }
 
-.Usp-imagewrap{
+.Customers-box{
 	@include span-columns(4);
-	position: relative;
-	height: 1em;
-
-	.Usp-img{
-		position: absolute;
-		top: -175px;
-		width: 350px;
-
-	}
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
-.Usp-list{
-	@include span-columns(8);
-}
-// .Home-wrap{
-// 	position: relative;
-// }
-
-.Logo-img > a:nth-child(1) > img:nth-child(1){
-	width: 33%;
-	margin-top: -3em;
+.Footer-text{
+	color: $c-white;
+	margin-top: 2.5em;
 }
 
-.Slider{
-	background-color: $c-darkblue;
-	height: 250px;	
-	background: url('http://placehold.it/2000x250/39a2fb/39a2fb');
-}

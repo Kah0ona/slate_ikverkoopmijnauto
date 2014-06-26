@@ -1,0 +1,92 @@
+.Explain-box{
+	@include span-columns(3);
+	height: px;
+	background-color: $c-white;
+}
+
+.Explain-button{
+	text-align: center;
+	width: 250px;
+	height: 50px;
+	background-color: $c-darkblue;
+	color: $c-white;
+	margin: auto;
+	margin-bottom: 1.5em;
+
+	p{
+		color: $c-white;
+		padding: 0.6em;
+	}
+}
+
+
+/////////////////////////////////////////////////////////TEXT
+
+.Explain-box-title{
+	color: $c-darkblue;
+	font-size: rem(20px);
+	font-weight: 600;
+	// text-align: center;
+}
+
+.Explain-box-text{
+	line-height: 1.8em;
+}
+
+.Explain-title{
+	font-size: rem(30px);
+	color: $c-darkblue;
+	// margin-left: 14em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;	
+	height: 10px;
+}
+
+/////////////////////////////////////////////////////////HEADERS
+
+.Explain-header-Autogegevens{
+	// background: url("../img/autogegevens.png");
+	background: url("../img/info_auto.svg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: $c-white;
+	height: 168px;
+	// margin: auto;
+	width: 72%;
+}
+
+.Explain-header-Persoonsgegevens{
+	background: url("../img/persoonlijke_info.svg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: $c-white;
+	height: 168px;
+	// margin: auto;
+	width: 72%;
+}
+
+.Explain-header-Info{
+	background: url("../img/auto_check.svg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: $c-white;
+	height: 168px;
+	// margin: auto;
+	width: 72%;
+}
+
+.Explain-header-Verkoop{
+	background: url("../img/verkoop.svg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: $c-white;
+	height: 168px;
+	// margin: auto;
+	width: 72%;
+}
+
