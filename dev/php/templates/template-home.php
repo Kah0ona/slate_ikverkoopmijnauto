@@ -8,11 +8,21 @@ Template Name: Homepage
 
 <div class="Home-wrap">
 		<div class="Slider">
+			<div class="Slider-bg">
 			<!-- <img src="http://placehold.it/2000x300/114062/114062"></img> -->
 			<div class="u-gridContainer">
 				<div class="u-gridRow">
+					 
+
+					<!--  <div class="Logo-img">
+  				 		 <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_header.svg" /></a>
+  				 		 <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_wit_footer.svg" /></a>
+   					 </div> -->
+
+
 					<h2 class="Slider-tagline">Lorem ipsum dolor sit amet!</h2>
 				</div>
+			</div>
 			</div>
 		</div>
 
@@ -24,7 +34,7 @@ Template Name: Homepage
 			    	</div>
 
 			    	<!-- <div class="Directverkoop-imagewrap"> -->
-				 		<img class="Directverkoop-img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/directverkopen.png" />
+				 		<a href="auto-verkopen"><img class="Directverkoop-img" src="<?php echo get_stylesheet_directory_uri(); ?>/img/directverkopen.png" /></a>
 			    	<!-- </div> -->
 
 			    	<div class="Usp-list">
@@ -68,9 +78,9 @@ Template Name: Homepage
 					</div>
 				</div>
 
-				<div class="Explain-button">
+				<a href="auto-verkopen"><div class="Explain-button">
 					<p>Auto verkopen</p>
-				</div>
+				</div></a>
 			</div>
 		</div>
 

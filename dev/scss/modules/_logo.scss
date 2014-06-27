@@ -30,6 +30,7 @@
 // -------------------------------------
 
 .Logo-img > a:nth-child(1) > img:nth-child(1){
+  // width: 58%;
   width: 33%;
   margin-top: -3em;
 }
@@ -66,4 +67,14 @@
 
 .Logo-img{
   text-align: center;
+  margin-top: 1em;
 }
+
+// .Logo-bg{
+//   position: absolute;
+//   left: 39em;
+//   top: 8em;
+//   background-color: $c-white;
+//   height: 13em;
+//   width: 33em;
+// }

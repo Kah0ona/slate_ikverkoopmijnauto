@@ -13,31 +13,14 @@ Template Name: Contactpage
 				<h2><?php the_title(); ?></h2>
 				<div class="Content-text">
 
-					<div class="u-gridRow">					
-						<div class="adress u-gridCol4">
-							<div class="adress-info">
-								<p>ikverkoopmijnauto</p>
-								<p></p>
-								<p> </p>
-								<p>Email: benno@lokaalgevonden.nl</p>
-								<p>Tel: </p>
-							</div>
-	
-						</div>					
-						<div class="adress-map u-gridCol8">
-							<div id="map_canvas"></div>
-						</div>
-
-					</div> <!-- /gridRow -->
-
-					<div class="hr-style super-margin">
-						<hr>
 					</div>
-					<div class="u-gridRow">						
+					<div class="u-gridRow">	
+						<div class="Contact-form u-gridCol6">				
 						<p class="contact-page-p">Heeft u nog vragen? Neem dan hieronder contact met ons op. </p>
 						<?php the_content(); ?>
 					
 						<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+						</div>
 					</div>
 
 				</div> <!-- content-text -->

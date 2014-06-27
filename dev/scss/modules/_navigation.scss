@@ -9,11 +9,13 @@
   text-align: center;
   background-color: $c-gray;
   padding-top: 0.2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  // padding-left: 1em;
+  // padding-right: 1em;
   padding-bottom: 0.2em;
   display: inline-block;
   float:left;
+  text-decoration: none;
+
 
 }
 
@@ -32,7 +34,8 @@
 // -------------------------------------
 
 .Navigation-link.is-active {
-  text-decoration: underline;
+  text-decoration: none;
+
 }
 
 // -------------------------------------
@@ -54,7 +57,18 @@
   // padding-right: 1em;
   // padding-bottom: 1em;
   // margin: 0 rem(15px);
-  margin: 3em;
+  // margin: 3em;
+  padding: 1.7em;
+  background-color: $c-gray;
+  -webkit-duration: .3s;
+  -moz-duration: .3s;
+  -o-duration: .3s;
+  transition-duration: .3s;
+  &:hover{
+   background: $c-white;
+    text-decoration: none;
+
+   }
 
 
   &:first-of-type {
@@ -70,8 +84,19 @@
 
 .Navigation-link {
   text-transform: uppercase;
-  // padding: 1em;
+  text-decoration: none;
+  padding: 1em;
   color: $c-darkgray;
+
+
+  -webkit-duration: .3s;
+  -moz-duration: .3s;
+  -o-duration: .3s;
+  transition-duration: .3s;
+  &:hover{
+   text-decoration: none;
+   color: $c-darkblue;
+   }
 }
 
 .Navigation-link--invertedBold {
