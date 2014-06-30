@@ -15,7 +15,10 @@
 	margin-top: 3em;
 	letter-spacing: 5px;
 	margin-bottom: 0;
-
+  	@media screen and(max-width: 980px){
+	margin-top: 1em;
+	background-repeat: no-repeat;
+	}
 }
 
 .Slider-bg{
@@ -29,6 +32,8 @@
 	// margin-bottom: 3em;
 	height: 19em;
 
-
-
+  	@media screen and(max-width: 980px){
+	height: 12em;
+	background-size: 170%;
+	}
 }

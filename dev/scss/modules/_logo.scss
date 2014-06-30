@@ -33,6 +33,10 @@
   // width: 58%;
   width: 33%;
   margin-top: -3em;
+  @media screen and(max-width: 980px){
+    margin-top: -1em; 
+    width: 68%;
+  }
 }
 
 .Logo-textLink {
@@ -68,6 +72,8 @@
 .Logo-img{
   text-align: center;
   margin-top: 1em;
+
+  
 }
 
 // .Logo-bg{

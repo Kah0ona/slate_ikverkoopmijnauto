@@ -2,7 +2,11 @@
 	position: relative;
 	height: 194px;
 	background-color: $c-gray;
-
+	@media screen and(max-width: 980px){
+			@include span-columns(12);
+			position: static;
+			height: auto;
+	}
 
 }
 
@@ -10,17 +14,24 @@
 	@include span-columns(4);
 	position: relative;
 	height: 1em;
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+		display: none;
+	}
+
 
 	.Usp-img{
 		position: absolute;
 		top: -175px;
 		width: 350px;
-
 	}
 }
 
 .Usp-list{
 	@include span-columns(5);
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
 }
 
 .Usp-title{
@@ -38,7 +49,7 @@
 // .Directverkoop-imagewrap{
 // 	@include span-columns(3);
 // 	position: relative;
-// 	height: 1em;
+// 	height: 1em; 
 
 // 	.Directverkoop-img{
 // 		position: absolute;
@@ -49,8 +60,18 @@
 // }
 
 .Directverkoop-img{
-		position: absolute;
-		top: -50px;
-		width: 218px;
-
+	position: absolute;
+	top: -50px;
+	width: 218px;
+	 -webkit-duration: .3s;
+	-moz-duration: .3s;
+	-o-duration: .3s;
+	transition-duration: .3s;
+	&:hover{
+	background: $c-white;
+	text-decoration: none;
 	}
+	@media screen and(max-width: 980px){
+		display: none;
+ 	}
+}

@@ -2,6 +2,11 @@
 	@include span-columns(3);
 	height: px;
 	background-color: $c-white;
+	@media screen and(max-width: 980px){
+			@include span-columns(12);
+			width: 100%;
+			display: inline-block;
+		}
 }
 
 .Explain-button{
@@ -16,6 +21,9 @@
 	p{
 		color: $c-white;
 		padding: 0.6em;
+	}
+   @media screen and(max-width: 980px){
+	width: 100%;
 	}
 }
 
@@ -41,6 +49,11 @@
 	letter-spacing: 2px;
 	text-align: center;	
 	height: 10px;
+
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+		// margin-bottom: 2em;
+	}
 }
 
 /////////////////////////////////////////////////////////HEADERS
@@ -56,11 +69,20 @@
 	// margin: auto;
 	width: 72%;
 
-  transition-duration: .4s;
-  &:hover{
+	transition-duration: .4s;
+	&:hover{
   	width: 80%;
 
    }
+	@media screen and(max-width: 980px){
+	width: 70%;
+	margin: auto;
+		&:hover{
+			width: 70%;
+		}
+	}
+
+   
 }
 
 .Explain-header-Persoonsgegevens{
@@ -77,6 +99,13 @@
   	width: 80%;
 
    }
+   @media screen and(max-width: 980px){
+	width: 70%;
+	margin: auto;
+		&:hover{
+			width: 70%;
+		}
+	}
 }
 
 .Explain-header-Info{
@@ -93,6 +122,13 @@
   	width: 80%;
 
    }
+   @media screen and(max-width: 980px){
+	width: 70%;
+	margin: auto;
+		&:hover{
+			width: 70%;
+		}
+	}
 }
 
 .Explain-header-Verkoop{
@@ -109,5 +145,12 @@
   	width: 80%;
 
    }
+   @media screen and(max-width: 980px){
+	width: 70%;
+	margin: auto;
+		&:hover{
+			width: 70%;
+		}
+	}
 }
 

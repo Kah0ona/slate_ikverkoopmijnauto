@@ -89,6 +89,9 @@
 	@include span-columns(4);
 	margin-top: 1em;
 	margin-bottom: 1em;
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
 }
 
 .Logo-slider{

@@ -2,7 +2,7 @@
 		<div class="u-gridContainer">
 			<?php if ( is_active_sidebar( 'footer-widgets' ) ) : ?>
 			<div class="Footer-inner u-gridRow">
-        <aside class="u-gridCol4">
+        <aside class="Footer-logo u-gridCol4">
     <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_wit_footer.svg" /></a>
         </aside>
       <aside class="u-gridCol8">
@@ -15,7 +15,7 @@
 	</div>
   <div class="u-gridContainer">
       <div class="u-gridRow">
-       <p class="Footer-text">&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website en SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden.nl</a> - <a href="/algemene-voorwaarden/">Algemene voorwaarden</a> - <a href="/privacy-beleid">Privacy beleid</a></p>
+       <p class="Footer-text-under">&copy; <?php bloginfo('name'); ?> <?php echo date("Y"); ?> - Website en SEO door <a href="http://www.lokaalgevonden.nl" target="_blank">LokaalGevonden.nl</a> - <a href="/algemene-voorwaarden/">Algemene voorwaarden</a> - <a href="/privacy-beleid">Privacy beleid</a></p>
       </div>
 </div>
 

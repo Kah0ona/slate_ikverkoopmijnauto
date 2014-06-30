@@ -53,6 +53,10 @@ li.check::before {
 	float:left;
 	width: 4.3em;
 	margin-left: 2.2em;
+ 	@media screen and(max-width: 980px){
+  		margin-left: 2.8em;
+  		// text-align: center;
+	}
 
 }
 
@@ -60,6 +64,9 @@ li.check::before {
 	float:left;
 	width: 4.3em;
 	margin-right: 0.5em;
+	@media screen and(max-width: 980px){
+		margin-right: 0;
+	}
 }
 
 .Twitter-icon{
