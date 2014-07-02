@@ -18,10 +18,12 @@
 // -------------------------------------
 
 .Icon--inline {
-  height: 1em;
-  width: 1em;
+  height: 3em;
+  width: 18em;
   vertical-align: middle;
   padding-bottom: 0.2em;
+  // fill: $c-white;
+  fill: $c-darkblue;
 }
 
 .Icon--alone {}
@@ -49,6 +51,7 @@ li.check::before {
 
 }
 
+////////////////////////////////////////////////////////NAVBAR
 .Home-icon{
 	float:left;
 	width: 4.3em;
@@ -56,6 +59,9 @@ li.check::before {
  	@media screen and(max-width: 980px){
   		margin-left: 2.8em;
   		// text-align: center;
+	}
+	@media screen and(max-width: 980px){
+		display: none;
 	}
 
 }
@@ -66,10 +72,22 @@ li.check::before {
 	margin-right: 0.5em;
 	@media screen and(max-width: 980px){
 		margin-right: 0;
+		// display: none;
+		width: 13%;
+		position: absolute;
+		top: 6em;
+		left: 14em;
 	}
 }
 
 .Twitter-icon{
 	float:left;
 	width: 4.3em;
+	@media screen and(max-width: 980px){
+		// display: none;
+		width: 13%;
+		position: absolute;
+		top: 6em;
+		left: 17em;
+	}
 }

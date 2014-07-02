@@ -53,21 +53,27 @@
     <div class="u-gridContainer">
         <div class="gridRow">
             <div class="Home-icon ">
-            <!-- <img src="http://placehold.it/50x50/39a2fb/39a2fb"></img> -->
-            <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home_button.png" /></a>
+                <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/home_button.png" /></a>
             </div>
-            <div class="Navigation">
-                <?php include 'includes/navigation.php'; ?>
+
+            <div class="Nav-Toggle">
+                <a class="Navigation-menuToggle" id="js-navCollapse">
+                    <svg class="Icon Icon--inline" viewBox="0 0 128 128">
+                        <use xlink:href="#icon-menu2"></use>
+                     </svg>
+                </a>
             </div>
+            <?php include 'includes/navigation.php'; ?>
+
+            
             <div class="Facebook-icon">
                 <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/facebook.png" /></a>
                 <!-- <img src="http://placehold.it/50x50/2ecc5a/2ecc5a"></img> -->
             </div>
+
             <div class="Twitter-icon">
                  <a href="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/twitter.png" /></a>
             </div>
        </div>
     </div>
 </div>
-
-
