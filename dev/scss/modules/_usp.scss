@@ -1,6 +1,6 @@
 .Usp{
 	position: relative;
-	height: 194px;
+	height: 190px;
 	background-color: $c-gray;
 	@media screen and(max-width: 980px){
 			@include span-columns(12);

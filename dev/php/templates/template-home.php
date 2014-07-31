@@ -20,7 +20,8 @@ Template Name: Homepage
    					 </div> -->
 
 
-					<h2 class="Slider-tagline">Lorem ipsum dolor sit amet!</h2>
+					<h2 class="Slider-tagline">Verkoop uw auto razend snel & super simpel</h2>
+					<h4 class="Slider-tagline2">Altijd binnen één dag het beste bod. Helemaal gratis & 100 % vrijblijvend.</h4>
 				</div>
 			</div>
 			</div>
@@ -38,17 +39,19 @@ Template Name: Homepage
 			    	<!-- </div> -->
 
 			    	<div class="Usp-list">
-			    		<h3 class="Usp-title">Lorem ipsum</h3>
+			    		<!-- <h3 class="Usp-title">Lorem ipsum</h3> -->
 			    		<ul class="Usp-text">
-			    			<li class="icon check">Lorem ipsum dolor sit ametLorem ipsum dolor sit amet</li>
-			    			<li class="icon check">Lorem ipsum dolor sit ametLorem ipsum dol</li>
-			    			<li class="icon check">Lorem ipsum dolor sit ametLorem ipsum dolor sit am</li>
+			    			<li class="icon check">Gegarandeerd: betrouwbaar & veilig verkoopadres</li>
+			    			<li class="icon check">Uitgebreid: netwerk van erkende auto-inkopers</li>
+			    			<li class="icon check">Helemaal gratis: en niet tot verkoop verplicht</li>
+			    			<li class="icon check">Geen gedoe: maar wel binnen 24 uur een eerlijk bod</li>
+			    			<li class="icon check">Directe uitbelaing: ?? Hoe/ hoe snel/door wie??</li>
 			    		</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-				
+				 
 		<div class="Explain">
 			<div class="u-gridContainer">
 				<div class="u-gridRow">
@@ -56,25 +59,25 @@ Template Name: Homepage
 					<div class="Explain-box">
 						<div class="Explain-header-Autogegevens"></div>
 						<p class="Explain-box-title">Autogegevens</p>
-						<p class="Explain-box-text">Duis faucibus nisi etnisi et lectus ullamcorper lnisi et lectus ullamcorperectus ullamcorper, at eleifend dui porttitor.</p>
+						<p class="Explain-box-text">U voert het kenteken van uw auto in of kiest handmatig het merk, model en de uitvoering.</p>
 					</div>
 
 					<div class="Explain-box">
 						<div class="Explain-header-Persoonsgegevens"></div>
-						<p class="Explain-box-title">Persoonsgegevens</p>
-						<p class="Explain-box-text">Duis faucibunisi et lectus ullamcorpers nisi et lectus ullamcorper, nisi et lectus ullamcorperat eleifend dui porttitor. nisi et lectus ullamcorper</p>
+						<p class="Explain-box-title">Contactgegevens</p>
+						<p class="Explain-box-text">U meldt via welke weg we u kunnen contacteren.</p>
 					</div>
 
 					<div class="Explain-box">
 						<div class="Explain-header-Info"></div>
-						<p class="Explain-box-title">Overige informatie</p>
-						<p class="Explain-box-text">Nisi et lectus ullamcorperDuis faucibus nisi et lectus ullamcorper, at elnisi et lectus ullamcorper nisi et lectus ullamcorpereifend dui porttitor.</p>
+						<p class="Explain-box-title">Aanvullende informatie</p>
+						<p class="Explain-box-text">U geeft antwoord op enkele korte vragen over uw auto.</p>
 					</div>
 
 					<div class="Explain-box">
 						<div class="Explain-header-Verkoop"></div>
-						<p class="Explain-box-title">Klaar voor verkoop</p>
-						<p class="Explain-box-text">Duis faucibus nisi et lectusnisi et lectus ullamcorpernisi et lectus ullamcorpernisi et lectus ullamcorpernisi et lectus ullamcorper ullamcorper, at eleifend dui porttitor.</p>
+						<p class="Explain-box-title">Klaar voor de...verkoop!</p>
+						<p class="Explain-box-text">Wij plaatsen uw auto in een gesloten, online veiling. Hier brengen onze erkende auto-inkopers er een bod op uit.  Binnen 1 dag geven wij het beste bod aan u door. U beslist of u uw auto wel of niet wilt verkopen. Dit alles kost u niets en is geheel vrijblijvend!</p>
 					</div>
 				</div>
 
