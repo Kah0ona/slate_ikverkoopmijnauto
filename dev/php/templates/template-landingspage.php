@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Homepage
+Template Name: Landingspage
 */
 ?>
 
@@ -50,7 +50,7 @@ Template Name: Homepage
 				</div>
 			</div>
 		</div>
-				 
+				  
 		<div class="Explain">
 			<div class="u-gridContainer">
 				<div class="u-gridRow">
@@ -80,12 +80,35 @@ Template Name: Homepage
 					</div>
 				</div>
 
-				<a href="auto-verkopen"><div class="Explain-button">
+				<a href="/auto-verkopen"><div class="Explain-button">
 					<p>Auto verkopen</p>
 				</div></a>
 			</div>
 		</div>
-
+		<div class="Content Content--landingspage">
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			<article class="u-gridContainer" id="post-<?php the_ID(); ?>">
+				<div class="u-gridRow">
+					<div class="u-gridCol8">
+						<h2><?php the_title(); ?></h2>
+						<div>
+							<?php the_content(); ?>
+							<?php edit_post_link('Edit this entry.', '<p>', '</p>'); ?>
+						</div>
+					</div>
+					<div class="u-gridCol4">
+						<div class="Explain-button Explain-button--inverse">
+							<p>
+								<a href="/auto-verkopen">
+									Auto verkopen
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</article>
+			<?php endwhile; endif; ?>
+		</div>
 		<div class="Customers">
 			<div class="u-gridContainer">
 				<div class="u-gridRow">
@@ -100,3 +123,4 @@ Template Name: Homepage
 		
 </div>
 <?php get_footer(); ?>
+

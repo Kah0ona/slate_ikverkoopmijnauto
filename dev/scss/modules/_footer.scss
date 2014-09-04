@@ -23,7 +23,6 @@
 
 .Footer-text{
 	color: $c-white;
-	margin-top: 2.5em;
 
 	a{
 		color: $c-white;
@@ -41,4 +40,8 @@
 
 .Footer-text-under{
 	color: $c-darkblue;
+}
+
+.Footer .Explain-button {
+	background-color: #285c81;
 }

@@ -1,0 +1,45 @@
+.Customer-box {
+
+}
+.Customers{
+	background-color: $c-gray;
+}
+
+.Customers-box{
+	@include span-columns(4);
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding: 15px;
+	background-color: white;
+	box-shadow: 5px 5px 5px #ccc;
+
+
+
+	@media screen and(max-width: 980px){
+		@include span-columns(12);
+	}
+
+
+}
+.Customers-ad {
+	min-height: 120px;
+	text-align: center;
+	div {
+		margin-bottom: 5px;
+	}
+}
+.Customers-quote {
+	margin-top: 10px;
+	font-style: italic;
+	min-height: 55px;
+}
+
+.Customers-image-wrap {
+	max-height: 217px;
+	overflow: hidden;
+}
+
+.Customers-name {
+	font-weight: bold;
+	font-size: 0.9rem;
+}

@@ -33,12 +33,15 @@
     <!-- build:remove:compressed -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <!-- /build -->
-
+ 
    
 
     <!-- Wordpress head function -->
     <?php wp_head(); ?>
 
+	<!-- Load jquery from google CDN if possible, with fallback to cdnjs -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"><\/script>')</script>
   </head>
   <body <?php body_class(); ?> >
 

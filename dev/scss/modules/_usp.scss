@@ -58,18 +58,19 @@
 
 // 	}
 // }
-
-.Directverkoop-img{
+.Directverkoop-imagewrap
+{
 	position: absolute;
 	top: -50px;
+	right: 0px;
 	width: 218px;
 	 -webkit-duration: .3s;
 	-moz-duration: .3s;
 	-o-duration: .3s;
 	transition-duration: .3s;
 	&:hover{
-	background: $c-white;
-	text-decoration: none;
+		background: $c-white;
+		text-decoration: none;
 	}
 	@media screen and(max-width: 980px){
 		display: none;

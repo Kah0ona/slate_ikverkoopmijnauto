@@ -72,6 +72,9 @@
 
 @import "modules/table";
 
+@import "modules/ads";
+
+
 // -------------------------------------
 // Inbox
 // -------------------------------------
@@ -81,18 +84,6 @@
 	height: 250px;
 }
 
-.Customers{
-	background-color: $c-gray;
-}
-
-.Customers-box{
-	@include span-columns(4);
-	margin-top: 1em;
-	margin-bottom: 1em;
-	@media screen and(max-width: 980px){
-		@include span-columns(12);
-	}
-}
 
 .Logo-slider{
 	// margin: auto;
