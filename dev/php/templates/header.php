@@ -40,8 +40,9 @@
     <?php wp_head(); ?>
 
 	<!-- Load jquery from google CDN if possible, with fallback to cdnjs -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"><\/script>')</script>
+	<!-- Somehow, 2.* jquery doesnt work on IE8 -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"><\/script>')</script>
   </head>
   <body <?php body_class(); ?> >
 
